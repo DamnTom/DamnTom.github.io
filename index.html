@@ -459,15 +459,15 @@
     <script src="js/dom-i18n.min.js"></script>
     <script>
         var i18n = window.domI18n({
-            languages: ['en', 'fr', 'it'],
-            defaultLanguage: 'en'
+            languages: ['de', 'en'],
+            defaultLanguage: 'de'
         });
 
-        if (navigator.language.substring(0, 2) == "fr") {
-            i18n.changeLanguage('fr');
+        if (navigator.language.substring(0, 2) == "de") {
+            i18n.changeLanguage('de');
         }
-        if (navigator.language.substring(0, 2) == "it") {
-            i18n.changeLanguage('it');
+        if (navigator.language.substring(0, 2) == "en") {
+            i18n.changeLanguage('en');
         }
     </script>
     <script async defer
