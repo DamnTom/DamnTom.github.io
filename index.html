@@ -226,6 +226,33 @@
         </div>
     </section>
 
+    <section id="map" class="section-padding">
+        <div class="text-center">
+            <h3 data-translatable>Anfahrt // How do I get there?<h3>
+        </div>
+        <div id="map-content" class="pointer-events-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Logenhaus Fürth</h4>
+                    <div class="col-md-12" style="padding: 5px;">
+                        <p>Dambacher Str. 11, 90763 Fürth</p>    
+                        <form action="https://goo.gl/maps/mdi4cwTH3gXH5MhM8" target="_blank">
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i
+                                class="fa fa-map-marker"></i>  Show
+                            map</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Parken</h4>
+                    <p>die Location bietet keine Parkplätze. Daher plant genug Zeit für die Parkplatzsuche ein. 
+                        Hotelempfehlung: Wir empfehlen das Hotel „the niu saddle“. Es liegt fußläufig in 10 Minuten zur Location. Bitte bucht selbst über die Hotelwebseite für die besten Konditionen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="events section-padding" id="events">
         <div class="container">
             <div class="row">
@@ -260,45 +287,36 @@
             <div class="row section-padding" id="gift">
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <a class="btn btn-fill btn-small btnForceFocus" data-toggle="modal" data-target="#dc-modal">
-                        <i class="fa fa-barcode"></i><span data-translatable>Hochzeitsreise // Honey Moon</span>
+                        <i class="fa fa-barcode"></i><span data-translatable>Geschenkliste // Gift list</span>
                     </a>
                 </div>
             </div>
         </div>
+
+        
         <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>×</span>
                         </button>
-                        <h3 class="text-center section-padding" data-translatable>WO GESCHENKELISTE // Ugh... where is the wedding list ???</h3>
+                        <h3 class="text-center section-padding" data-translatable>Geschenke // Gifts</h3>
                         <p data-translatable>
                             <span>
-                                EDIT: Hier den Text auf Deutsch
+                                Über Geschenke denkt Ihr nach? Die Reisekasse liegt noch brach.
+                                Wenn Euch kein Geschenk einfällt, schenkt uns einfach „Flittergeld“.
+                                Wollt ihr doch etwas handfestes schenken, so wird die Mutter der Braut an was denken. 
+
+                                Wendet Euch für die Geschenkliste bitte an Jaqueline (+49173/3579234)
                             </span>
                             <span>
-                                EDIT: Hier den Text auf Englisch
+                                Are you thinking about gifts? The travel fund is still idle.
+                                If you can't think of a gift, just give us "tinsel money".
+                                If you want to give something tangible, the mother of the bride will think of something. 
+
+                                Please contact Jaqueline (+49173/3579234) for the gift list.
                             </span>
                         </p>
-                        <h5 data-translatable>Tragt zu unserer Reise bei // The different ways you can participate</h5>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <p class="unselectable" unselectable="on" onselectstart="return false;"
-                                    onmousedown="return false;"><strong>Europe (Transfer)</strong><br>
-                                    Iban: <img src="img/begin.png" width="200px"><img src="img/end.png"
-                                        width="89px"><br>
-                                    BIC: EDIT: BIC<br>
-                                    Nom: Sandra Werner</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="img/gift/safari2.jpg">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="img/gift/safari3.jpg">
-                            </div>
-                        </div>
 
                     </div>
                 </div><!-- /.modal-content -->
@@ -307,48 +325,7 @@
 
     </section>
 
-    <section id="map" class="section-padding">
-        <div class="text-center">
-            <h3 data-translatable>Anfahrt // How do I get there?<h3>
-        </div>
-        <div id="map-canvas"></div>
-        <div id="map-content-wrapper" class="container pointer-events-none">
-            <div class="row">
-                <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                    <div class="text-center">
-                        <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                            <i class="fa fa-info-circle"></i>   Inform
-                        </div>
-                    </div>
-                    <div id="map-content" class="pointer-events-auto">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5>Castello di Oviglio</h5>
-                                <a class="aAsp" target="_blank" href="https://goo.gl/maps/MX43XeYvD3s">Via XXIV Maggio,
-                                    1, 15026 Oviglio AL, Italia</a>
-                            </div>
-                            <div class="col-md-6">
-                                <h5>Daniel & Sandra</h5>
-                                <p>EDIT: Hier weiß ich nicht ob ihr eure Nummern reinpacken wollt</p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <!-- <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small"
-                               href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
-                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div> -->
-                            <div class="col-md-12" style="padding: 5px;">
-                                <a class="btn btn-accent btn-small" id="btn-show-map"><i
-                                        class="fa fa-map-marker"></i>  Show
-                                    map</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="rsvp text-center" id="rsvp">
 
@@ -421,7 +398,6 @@
                         <button class="btn-fill rsvp-btn" data-translatable>
                             <span>Yes, that's me!</span>
                             <span>Oui, c'est moi !</span>
-                            <span>Si, sono io !</span>
                         </button>
                     </form>
                 </div>

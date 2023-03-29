@@ -818,6 +818,8 @@ header .member-actions {
   margin-bottom: 150px;
 }
 #map-content {
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 40px;
   padding: 50px 60px;
   background: #fff;
