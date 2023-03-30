@@ -503,6 +503,17 @@ header .member-actions {
 #intro .aAsp {
   text-align: center;
 }
+#groomsmen {
+  padding-top: 40px;
+}
+#groomsmen  img {
+  width: 100%;
+  height: auto;
+}
+#groomsmen  p,
+#groomsmen  .aAsp {
+  text-align: center;
+}
 .features {
   position: relative;
 }
