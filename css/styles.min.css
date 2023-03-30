@@ -938,7 +938,6 @@ header .member-actions {
 .rsvp .rsvp-form .form-input-group input:-ms-input-placeholder {
   color: #bcc1c3;
 }
-
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
 0% { left: 0%; }
@@ -953,11 +952,6 @@ header .member-actions {
 }
 * {
   box-sizing: border-box;
-}
-body, figure { 
-  margin: 0; background: #101010;
-  font-family: Istok Web, sans-serif;
-  font-weight: 100;
 }
 div#captioned-gallery { 
   width: 100%; overflow: hidden; 
