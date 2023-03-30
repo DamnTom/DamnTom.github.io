@@ -514,6 +514,13 @@ header .member-actions {
 #groomsmen  .aAsp {
   text-align: center;
 }
+#groomsmenPic{
+  width:90%; 
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%; 
+  margin-bottom: 50px;
+}
 
 .groomsmen span.icon {
   font-size: 40px;
