@@ -128,6 +128,7 @@
                                 <li><a href="#events" data-translatable>Programm // Events</a></li>
                                 <li><a href="#gift" data-translatable>Geschenke // Gifts</a></li>
                                 <li><a href="#pics" data-translatable>Bilder // Pictures</a></li>
+                                <li><a href="#dresscode" data-translatable>Dresscode</a></li>
                             </ul>
                             <ul class="member-actions">
                                 <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
@@ -370,7 +371,6 @@
                                 <span>Wir freuen uns auf den gemeinsamen Tag mit euch.</span>
                                 <span>We are glad to see you join us on our big day.</span>
                             </p>
-                            <div id="add-to-cal"></div>
                         </div>
                     </div>
                 </div><!-- /.modal-content -->
@@ -379,7 +379,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h3>Rückmeldung</h3>
+                    <h3 data-translatable>Rückmeldung // Feedback</h3>
                     <p data-translatable>
                         <span>Wir bitten um Zusage bis zum <strong>09.06.2023</strong></span>
                         <span>We would greatly appreciate if you could RSVP before the <strong>09<sup>st</sup> of
@@ -389,13 +389,13 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="name" class placeholder="Your name" required>
+                                    <i class="fa fa-user"></i><input name="name" class placeholder="Name" required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
                                     <i class="fa fa-users"></i><input type="number" name="extras" class min="0" max="420"
-                                        placeholder="Husband/Femme or bambini" required>
+                                        placeholder="Gäste" required>
                                 </div>
                             </div>
                         </div>
@@ -403,8 +403,8 @@
                             <div class="col-md-12" id="alert-wrapper"></div>
                         </div>
                         <button class="btn-fill rsvp-btn" data-translatable>
-                            <span>Was soll hier rein</span>
-                            <span>Oui, c'est moi !</span>
+                            <span>Absenden</span>
+                            <span>Submit</span>
                         </button>
                     </form>
                 </div>
@@ -412,26 +412,45 @@
         </div>
     </section>
 
-    <section id="video-bg" class="hidden-sm hidden-xs">
+    <section id="video-bg" class="hidden-sm hidden-xs" style="text-align: center;">
     <!--
             <div id="bgndVideo" class="player"
                 data-property="{videoURL:'https://www.youtube.com/watch?v=BRfexhPOQWc',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, opacity:1}">
             </div>
-    -->
-        <div style="width: 100%; text-align: center;">
-            <iframe width="90%" height="auto" src="https://www.youtube.com/embed/BRfexhPOQWc?&autoplay=1" title="YouTube video player" frameborder="0" 
+    --> 
+
+        <div style="max-width: 300px; text-align: center;">
+            <iframe width="auto" height="100%" src="https://www.youtube.com/embed/BRfexhPOQWc?&autoplay=1" title="YouTube video player" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
         </div>
 
     </section>
     
+    <section id="dresscode" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 data-translatable>Dresscode</h3>
+                    <p data-translatable>
+                        <span>
+                            "Cocktail": Wir freuen uns, wenn ihr in feierlicher, eleganter Garderobe erscheint
+                        </span>
+                        <span>
+                            Cocktail
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center content">
                     <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                    <p>Created by Sandra with lots of <span class="fa fa-heart pulse2"></span> for Daniel</p>
+                    <p data-translatable>Erstellt vom Trauzeugen der Braut // Created by the brides groomsman</p>
                 </div>
             </div>
         </div>
