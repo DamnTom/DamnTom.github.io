@@ -219,7 +219,7 @@ $(document).ready(function () {
         //     && MD5($('#invite_code').val()) !== 'c6e63ad45b4a45a081dbaae07d4b0d0b') {
         //     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         // } else {
-            $.post('https://script.google.com/macros/s/AKfycbzgh8VuCWAnUCmfvxkkzwT57ViyATc43M1NlJ2KBnR2vZ8xKnP9PkwX6Chxn1-vWDnCSw/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbxGiqt4RgqLglyrTYgpeeHnRsf2wDyO4FHZPC7YhFSK5OxDQAcAb1tmUs73dwvbVSKQ9Q/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
