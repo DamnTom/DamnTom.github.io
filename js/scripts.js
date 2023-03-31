@@ -184,20 +184,20 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Laurent and Giulia's Wedding",
+            title: "Hochzeit - Sandra und Daniel Banish",
 
             // Event start date
-            start: new Date('Jul 19, 2019 16:00'),
+            start: new Date('Sep 09, 2023'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jul 20, 2019 04:00'),
+            //end: new Date('Jul 20, 2019 04:00'),
 
             // Event Address
-            address: 'Via XXIV Maggio, 1, 15026 Oviglio AL, Italie',
+            address: 'Dambacher Str. 11, 90763 Fürth',
 
             // Event Description
             description: "We can't wait to spend this day with you. For any questions or issues don't hesitate to contact us."
@@ -219,7 +219,7 @@ $(document).ready(function () {
         //     && MD5($('#invite_code').val()) !== 'c6e63ad45b4a45a081dbaae07d4b0d0b') {
         //     $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         // } else {
-            $.post('https://script.google.com/macros/s/AKfycbzAZaJUBMU_5x22JiJdbfSc0SiIRcYQYp1XXn-BOcqAgOCN6n2e/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzgh8VuCWAnUCmfvxkkzwT57ViyATc43M1NlJ2KBnR2vZ8xKnP9PkwX6Chxn1-vWDnCSw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
