@@ -823,7 +823,8 @@ header .member-actions {
   z-index: -1;
 }
 #video-bg {
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 #video-content {
   width: 100%;
