@@ -211,7 +211,7 @@ $(document).ready(function () {
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
-
+        console.log("1");
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
         // if (MD5($('#invite_code').val()) !== '364274707420480fa0e30abb8397ac68'
